@@ -1,0 +1,23 @@
+# PHP Backend Data Files
+php-backend/data/players/*.json
+php-backend/data/companies/*.json
+php-backend/data/logs/*.json
+
+# Keep directories but ignore contents
+!php-backend/data/players/.gitkeep
+!php-backend/data/companies/.gitkeep
+!php-backend/data/logs/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*~
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Logs
+*.log
